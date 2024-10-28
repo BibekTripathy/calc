@@ -35,18 +35,19 @@ def logarithm(x, base):
 
 def main():
     print("Welcome to the Scientific Calculator!")
-    print("Select operation:")
-    print("1. Add")
-    print("2. Subtract")
-    print("3. Multiply")
-    print("4. Divide")
-    print("5. Square Root")
-    print("6. Power")
-    print("7. Sine")
-    print("8. Cosine")
-    print("9. Logarithm")
-
+    
     while True:
+        print("\nSelect operation:")
+        print("1. Add")
+        print("2. Subtract")
+        print("3. Multiply")
+        print("4. Divide")
+        print("5. Square Root")
+        print("6. Power")
+        print("7. Sine")
+        print("8. Cosine")
+        print("9. Logarithm")
+
         choice = input("Enter choice (1-9): ")
 
         if choice in ['1', '2', '3', '4', '5', '6', '7', '8', '9']:
